@@ -1,0 +1,15 @@
+<h1 id="a">0</h1>
+<h1>fps</h1>
+<script>
+  let a=0
+  let b=document.getElementById("a")
+  let d=0
+  let e=0
+  function c(a){
+    e=a-d
+    b.innerText=1000/e
+    d=a
+    requestAnimationFrame(c)
+  }
+  requestAnimationFrame(c)
+</script>
