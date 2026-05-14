@@ -1,0 +1,60 @@
+# The documentation was created by Gemini 3.1 
+################################
+
+================================================
+TECHNICAL SPECIFICATION: COMPACT FPS MONITOR
+================================================
+
+1. ARCHITECTURE STRATEGY
+------------------------
+This script utilizes 'requestAnimationFrame' to sync 
+with the browser's refresh rate. It calculates FPS 
+based on the "delta time" (the gap) between frames.
+
+2. VARIABLE DEFINITIONS
+-----------------------
+To minimize file size, short identifiers are used:
+
+- Variable [b]: 
+  The DOM interface. Points to <h1 id="a">. This is 
+  where the calculated FPS number is displayed.
+
+- Variable [d]: 
+  The "Previous Timestamp." It stores the exact time 
+  (in milliseconds) of the last frame.
+
+- Variable [e]: 
+  The "Delta Time." It is the result of [Current Time] 
+  minus [Previous Time (d)].
+
+- Function [c]: 
+  The recursive animation loop. It runs 60-120 times 
+  per second depending on the user's monitor.
+
+3. THE MATH LOGIC
+-----------------
+The monitor uses the standard frequency formula:
+FPS = 1000ms / Time between frames
+
+Step-by-step in the code:
+1. 'e = a - d' calculates how many ms passed since 
+   the last update.
+2. '1000 / e' converts that gap into "Frames Per Second."
+3. 'd = a' saves the current time to be used as the 
+   "previous time" in the next loop.
+
+4. EXECUTION FLOW
+-----------------
+1. The script starts by calling requestAnimationFrame(c).
+2. The browser passes a high-resolution timestamp into 
+   function (c) as argument (a).
+3. The FPS is calculated and pushed to the <h1> text.
+4. The function calls itself again immediately, 
+   creating an infinite loop.
+
+5. PERFORMANCE NOTES
+--------------------
+Using requestAnimationFrame is significantly more 
+accurate than using setInterval, as it aligns 
+perfectly with the hardware's display cycles.
+================================================
