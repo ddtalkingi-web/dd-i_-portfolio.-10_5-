@@ -1,3 +1,5 @@
+# this documentation was created using Gemini 3.1
+################################
 ================================================
 TECHNICAL SPECIFICATION: COMPACT COUNTER
 ================================================
