@@ -1,0 +1,20 @@
+// this is a bite Beach creation and set of a two-line spacing is equivalent to a new creation 
+
+
+// this is a two line spacing where the last comment has a two line spacing with this comment, but it could be equation to comment comment to equation or such. so here is the creations 
+
+
+a=[1],
+(((sin(t)*1234567891011)%256)*a[(t%6000)>>10])
+
+
+((sin(t)*123456789101112)%256/8)+t*((t>>13)^(t>>13)-1)/2
+
+
+((t*(t>>13))^(t*(t>>13))>>8)-(t*(t>>13))
+
+
+((sin(t)*123456789101112)%255/9)+((t*(t>>13))^(t*(t>>13))>>8)-(t*(t>>13))
+
+
+(t^t*5)+((t+128)^((t+128)*5))
