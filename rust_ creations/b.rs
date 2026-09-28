@@ -1,0 +1,1 @@
+fn main(){let mut _a:i64=27;let mut _b:i64=200;while _b!=0{println!("{_a}");if _a%2==0{_a=_a/2}else if _a%2==1{_a=_a*3;_a=_a+1;}_b=_b-1;}}
