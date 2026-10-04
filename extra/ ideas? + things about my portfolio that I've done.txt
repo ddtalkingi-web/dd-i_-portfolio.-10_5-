@@ -34,3 +34,19 @@ st the file type the file type code. Well, in fact it starts off in the syntax w
  smaller, allowing it to minimize the size down to just eight bits. so 64 bits plus eight bits = just 52 bits in size. in fact, no, it's 72 bits in size so it's 72 bits in size. we can be able to see that it works quite well, but ultimately it is quite fun seeing how everything works in general. ultimately I just wonder if this is so optimized then why not? just very optimized file or even Little FS. some other Foster come along
  to the ride with embedded systems, file systems
  and some other crazy types of file systems
+
+I learn how to program in?
+rust
+python 
+JavaScript
+bash 
+powershell
+Assembly
+esotech programming languages I learned 
+Brain f**k 
+what I like about programming + programming languages 
+The Unix philosophy 
+the Linux philosophy about user space 
+The rust programming language 
+the assembly programming language 
+The democene Community
