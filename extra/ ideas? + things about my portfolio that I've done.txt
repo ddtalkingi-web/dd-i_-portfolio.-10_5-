@@ -50,3 +50,7 @@ the Linux philosophy about user space
 The rust programming language 
 the assembly programming language 
 The democene Community
+what I love about the democene
+how they squish high functionality into a really small code size 
+how they use clever tricks to be able to achieve small sizes
+the philosophy 
